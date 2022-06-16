@@ -19,7 +19,7 @@ export default function PageNotFound() {
       alignItems='center'
     >
       <Image src='/../img/404.svg' width='300' height='300' alt='404 not found' />
-      <Link href='/dashboard'>
+      <Link href='/'>
         <Button
           mt={7}
           bg={colorTheme.secondColor}
