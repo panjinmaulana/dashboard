@@ -18,7 +18,7 @@ export default function PageNotFound() {
       justifyContent='center'
       alignItems='center'
     >
-      <Image src='/../img/404.svg' width='300' height='300' />
+      <Image src='/../img/404.svg' width='300' height='300' alt='404 not found' />
       <Link href='/dashboard'>
         <Button
           mt={7}

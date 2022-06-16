@@ -70,7 +70,7 @@ export default function Registration() {
           variant: 'left-accent',
           isClosable: true,
         }));
-        onClose();
+    onClose();
   };
 
   return (
@@ -90,8 +90,9 @@ export default function Registration() {
             <InputGroup>
               <InputLeftElement
                 pointerEvents='none'
-                children={<BsSearch />}
-              />
+              >
+                <BsSearch />
+              </InputLeftElement>
               <Input
                 type='text'
                 placeholder='Search by email'
