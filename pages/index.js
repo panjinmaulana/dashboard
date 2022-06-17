@@ -150,7 +150,7 @@ export default function Dashboard() {
     >
       <Box textAlign='left' w='100%'>
         <Heading fontFamily='poppins'>Sales Dashboard</Heading>
-        <Text as='b' color='facebook.500'>Lisst of Sales Data</Text>
+        <Text as='b' color='facebook.500'>List of Sales Data</Text>
         <Divider my={2} />
       </Box>
       <Table
